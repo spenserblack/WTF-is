@@ -1,5 +1,8 @@
 CC=gcc
 
+wtf: src/main.c bin/dirs.o bin/path.o
+	$(CC) -o wtf src/main.c bin/dirs.o bin/path.o
+
 bin/example-dirs: bin/dirs.o bin/path.o src/dirs.h examples/dirs.c
 	$(CC) -o bin/example-dirs bin/dirs.o bin/path.o examples/dirs.c
 
