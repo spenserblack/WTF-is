@@ -1,2 +1,3 @@
 IIRC: If I remember correctly
+POC: Point of Contact|Proof of Concept
 WTF: Where's the food?
