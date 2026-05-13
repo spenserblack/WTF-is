@@ -27,3 +27,10 @@ some example filenames:
 Definitions are in the format `ABCD: definition 1|definition 2|definition 3|...`.
 `ABCD` is the acronym itself, followed by a colon and a space. Each definition for that
 acronym within that category is separated by `|`.
+
+## Installation
+
+### From source
+
+1. Clone this repository
+2. `make install`
