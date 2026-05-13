@@ -4,7 +4,7 @@
 
 ```console
 $ wtf is IIRC
-iirc:
+IIRC:
 	general:	If I remember correctly
 ```
 
