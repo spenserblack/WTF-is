@@ -16,6 +16,12 @@ indent_style = tab
 indent_style = tab
 indent_size = 8
 
+# Markdown
+[*.md]
+# So we can add actual tabs when pressing tab
+indent_style = tab
+indent_size = unset
+
 # Shell
 [*.{sh,bash}]
 indent_style = tab
