@@ -1,3 +1,6 @@
+AFAICT: As far as I can tell
+AFAIK: As far as I know
 IIRC: If I remember correctly
+OMG: Oh my god
 POC: Point of Contact|Proof of Concept
 WTF: Where's the food?
