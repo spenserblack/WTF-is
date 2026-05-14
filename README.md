@@ -34,3 +34,10 @@ acronym within that category is separated by `|`.
 
 1. Clone this repository
 2. `make install`
+
+## Updating default definitions
+
+### From source
+
+1. Clone this repository
+2. `make install-data`

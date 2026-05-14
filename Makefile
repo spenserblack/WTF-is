@@ -13,8 +13,11 @@ bin/path.o: src/path.c src/path.h
 	$(CC) -c -o bin/path.o src/path.c
 
 .PHONY: install
-install: wtf
+install: wtf install-data
 	cp wtf /usr/bin/wtf
+
+.PHONY: install-data
+install-data:
 	cp -r data /usr/share/wtf-is
 
 .PHONY: run-example-dirs
