@@ -40,4 +40,4 @@ acronym within that category is separated by `|`.
 ### From source
 
 1. Clone this repository
-2. `make install-data`
+2. `make reinstall-data`

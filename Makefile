@@ -20,6 +20,14 @@ install: wtf install-data
 install-data:
 	cp -r data /usr/share/wtf-is
 
+.PHONY: uninstall-data
+uninstall-data:
+	rm -rf /usr/share/wtf-is
+
+.PHONY: reinstall-data
+reinstall-data: uninstall-data install-data
+
+
 .PHONY: run-example-dirs
 run-example-dirs: bin/example-dirs
 	./bin/example-dirs
